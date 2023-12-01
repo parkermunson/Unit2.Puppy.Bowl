@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'RobotoMono-Reg' ;
+    src: url("RobotoMonoNerdFont-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoMono-Med';
+    src: url(RobotoMonoNerdFont-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url(JosefinSlab-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: 'JosefinSlab-Italic';
+    src: url(JosefinSlab-SemiBoldItalic.ttf);
+}
+
+body {
+    background-color: rgb(231, 218, 194);
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.allPuppies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    padding: 20px;
+}
+
+.allPuppies a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 150px;
+    text-decoration: none;
+    color: #333;
+    margin: 10px; 
+    font-family: 'JosefinSlab';
+    font-size: 24px; 
+    border: 2px solid black; 
+    transition: background-color 0.5s;
+}
+
+.allPuppies a:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 11px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'JosefinSlab';
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.section {
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 11px;
+}
+
+#welcome {
+    font-family: 'RobotoMono-Med';
+    font-size: 48px;
+    color: goldenrod;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+#tagline {
+    font-family: 'JosefinSlab';
+    text-align: center;
+
+}
+
+#meetPack {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 85px;
+    font-family: 'RobotoMono-Med';
+    color: goldenrod;
+    border-top: none;
+    border-bottom: 1px solid black;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+#sectionTitle {
+    font-family: 'RobotoMono-Med';
+    color: goldenrod;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+#allPuppies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#puppyDog {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'JosefinSlab';
+    color: black;
+    text-decoration: none;
+}
+
+#puppyDog:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#puppyImg {
+    width: 350px;
+    height: auto;
+    margin: 20px;
+}
+
+#puppyTitle {
+    font-family: 'RobotoMono-Med';
+    font-size: 32px;
+    color: goldenrod;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+    margin: 20px;
+}
+
+
+#puppyDetails {
+    font-family: 'RobotoMono-Reg';
+    margin: 20px;
+}
+
+
+#puppyDog:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#puppyDog:hover {
+    font-family: 'JosefinSlab-Italic';
+    background-color: goldenrod;
+    transition: all 1s;
+}
+
+
