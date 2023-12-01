@@ -20,7 +20,7 @@ async function render() {
     const puppyList = puppies.map((pup) => {
         return `
         <div>
-        <a href=#${pup.name} id='puppyDog'> ${pup.name} </a>
+        <a href=#${pup.name} ${pup.breed} id='puppyDog'> ${pup.name} <hr/> <p id='puppyBreed'> ${pup.breed}</p>  </a>
         </div>
         `
     })
